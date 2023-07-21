@@ -5,12 +5,21 @@
   */
 void print_square(int size)
 {
-	int row, column;
-
-	for (row = 1; row <= size; row++)
+	if (size <= 0)
 	{
-		for (column = 1; column <= size; column++)
-			_putchar('#');
 		_putchar('\n');
+	}
+	else
+	{
+		int r, c;
+
+		for (r = 1; r <= size; r++)
+		{
+			for (c = 1; c <= size; c++)
+		{
+			_putchar('#');
+		}
+		_putchar('\n');
+		}
 	}
 }
