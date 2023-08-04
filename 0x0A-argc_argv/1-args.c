@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  * main - prints all arguments it receives
+  * main - prints the number of arguments passed into it
   * @argc: int
   * @argv: list
   * Return: 0 success
